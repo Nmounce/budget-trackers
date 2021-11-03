@@ -1,4 +1,5 @@
 # Budget-Tracker
+
 HW #19 UC Davis Coding Bootcamp
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
@@ -41,17 +42,10 @@ Heroku, JavaScript, MongoDB, Mongoose
 
 ## Usage
 
-1. Homepage displaying most recent transaction:
+1. Homepage displaying most recent transactions and allowing for new input:
    ![](/public/images/homepage.png)
-2. Create a new workout:
-   ![](/public/images/new_item.gif)
-3. View summary from previous week:
+2. View summary of transactions:
    ![](/public/images/graph.png)
-4. Add an exercise to the array:
-   ![](/public/images/snippet.png)
-   This function will add an exercise to the array of exercises that belong to
-   the workout within the given ID, updates the fields, and push the exercise to
-   the array of exercises.
 
 ## Licensing
 
@@ -63,8 +57,8 @@ Complete
 
 ## Contributing
 
-Contribute to Workout Tracker
-To contribute to Workout Tracker, follow these steps: 1. Fork this repository. 2. Create a branch: git checkout -b <branch name>. 3. Make your changes and commit them: git commit -m '<commit message>'. 4. Push to the original branch: git push origin <project_name/<location> 5. Create the pull request.
+Contribute to BudgetTracker
+To contribute to Budget Tracker, follow these steps: 1. Fork this repository. 2. Create a branch: git checkout -b <branch name>. 3. Make your changes and commit them: git commit -m '<commit message>'. 4. Push to the original branch: git push origin <project_name/<location> 5. Create the pull request.
 Alternatively, see the Github documentation on creating a pull request.
 
 ## Acknowledgements
@@ -73,9 +67,7 @@ TA's of the UC Davis Coding Bootcamp
 
 ## Sources
 
-https://github.com/annasuvvac/homework-17
-https://github.com/kqarlos/fitness-tracker
-https://github.com/GauriKhandke/fitness-tracker
+UC Davis Coding Bootcamp Section 17 Mini Project
 
 ## Questions
 
