@@ -7,6 +7,7 @@ HW #19 UC Davis Coding Bootcamp
 ## Description
 
 ![](/public/images/functionality.gif)
+
 Budget Tracker gives users a fast and easy way to track your money on the go and
 features an offline mode that will allow you to track your withdrawals and
 deposits with/without an internet connection. Users can see an update total when
