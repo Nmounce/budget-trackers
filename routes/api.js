@@ -9,7 +9,7 @@ router.post("/api/transaction", ({
             res.json(dbTransaction);
         })
         .catch(err => {
-            res.status(404).json(err);
+            res.status(400).json(err);
         });
 });
 
@@ -21,19 +21,20 @@ router.post("/api/transaction/bulk", ({
             res.json(dbTransaction);
         })
         .catch(err => {
-            res.status(404).json(err);
+            res.status(400).json(err);
         });
 });
 
 router.get("/api/transaction", (req, res) => {
-    Transaction.find({}).sort({
+    Transaction.find({})
+        .sort({
             date: -1
         })
         .then(dbTransaction => {
             res.json(dbTransaction);
         })
         .catch(err => {
-            res.status(404).json(err);
+            res.status(400).json(err);
         });
 });
 
