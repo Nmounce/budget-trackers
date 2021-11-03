@@ -44,7 +44,7 @@ Heroku, JavaScript, MongoDB, Mongoose
 1. Homepage displaying most recent transaction:
    ![](/public/images/homepage.png)
 2. Create a new workout:
-   ![](/public/images/new_workout.gif)
+   ![](/public/images/new_item.gif)
 3. View summary from previous week:
    ![](/public/images/graph.png)
 4. Add an exercise to the array:
